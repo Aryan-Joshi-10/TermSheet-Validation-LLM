@@ -1,0 +1,49 @@
+#bgimg {
+  background: url("./assets/images/bgcaol.png") no-repeat center;
+  background-size: cover;
+}
+#google_translate_element > .skiptranslate > span {
+  display: none;
+}
+table {
+  display: none;
+}
+#hero-page {
+  background-color: #61dafb;
+  background-image: url("./assets//images//hero-page-sih.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scrolling-alert {
+  animation: scroll 15s linear infinite;
+}
+
+.AboutBg {
+  background-image: url("./assets/images/About-coal-mines-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}

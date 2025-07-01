@@ -1,0 +1,91 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+client/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build files
+dist/
+build/
+client/build/
+
+# Database files
+*.sqlite3
+*.db
+
+# Static files
+public/uploads
+public/images
+client/public/static
+
+# IDE/Editor settings
+.vscode/
+.idea/
+.DS_Store
+*.sublime*
+
+# Temp files
+*.tmp
+*.swp
+
+# Coverage reports
+coverage/
+client/coverage/
+
+# Debug logs and temporary files
+debug.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Serverless Platforms
+.serverless/
+.aws-sam/
+
+# Parcel-bundler cache (if applicable)
+.cache/
+client/.cache/
+
+# Webpack
+webpack.cache/
+
+# React Native/Expo
+.expo/
+.expo-shared/
+
+# Testing
+coverage/
+client/coverage/
+.nyc_output
+
+# Babel cache
+.babel_cache/
+
+# Next.js build
+.next/
+out/
+
+# Docker files
+docker-compose.override.yml
+Dockerfile
+Dockerfile.dev
+
+# Miscellaneous
+*.tgz
+!.github
